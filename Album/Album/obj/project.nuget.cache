@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TlFFwA+/eajYxkDA52jkgnor3+jMoXE5IGO3pMIiuA4Cv1JLbe0EAjct35Ye8CYWSflFbu7fBzCxe6Fbj6s9Tg==",
+  "dgSpecHash": "mwQEREgdZRe/4Jy5UbspnMwEE9rLGXmloK3GwF4bfD6hkNxN/ZdFij/iq4+35SbMWg7xY+UPaZ0hQ4dPsJ7EJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Album\\Album\\Album.csproj",
+  "projectFilePath": "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Album\\Album\\Album.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\joaop\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

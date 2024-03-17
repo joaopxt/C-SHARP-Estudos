@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Album\\Album\\Album.csproj": {}
+    "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Album\\Album\\Album.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Album\\Album\\Album.csproj": {
+    "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Album\\Album\\Album.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Album\\Album\\Album.csproj",
+        "projectUniqueName": "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Album\\Album\\Album.csproj",
         "projectName": "Album",
-        "projectPath": "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Album\\Album\\Album.csproj",
+        "projectPath": "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Album\\Album\\Album.csproj",
         "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Album\\Album\\obj\\",
+        "outputPath": "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Album\\Album\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

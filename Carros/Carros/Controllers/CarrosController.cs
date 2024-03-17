@@ -8,9 +8,9 @@ namespace Carros.Controllers;
 [ApiController]
 public class CarrosController : ControllerBase {
 
-    private readonly CarrosDBContext _context;
+    private readonly CarrosDbContext _context;
 
-    public CarrosController(CarrosDBContext context)
+    public CarrosController(CarrosDbContext context)
     {
         _context = context;
     }
@@ -38,6 +38,8 @@ public class CarrosController : ControllerBase {
     public IActionResult Post(Carro carro) {
         _context.Carros.Add(carro);
 
+        _context.SaveChanges();
+
         return CreatedAtAction(nameof(GetById), new {id = carro.Id}, carro);
     }
 
@@ -50,6 +52,9 @@ public class CarrosController : ControllerBase {
         }
 
         carro.Update(input.Modelo, input.Ano, input.Marca, input.Preco);
+
+        _context.Carros.Update(carro);
+        _context.SaveChanges();
 
         return NoContent();
     }
@@ -64,6 +69,8 @@ public class CarrosController : ControllerBase {
         }
 
         carro.Delete();
+        //_context.Carros.Remove(carro);  
+        _context.SaveChanges(); 
 
         return NoContent(); 
     }
