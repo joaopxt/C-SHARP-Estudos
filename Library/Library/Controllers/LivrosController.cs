@@ -9,9 +9,9 @@ namespace Library.Controllers;
 [ApiController]
 public class LivrosController : ControllerBase {
 
-    private readonly LivrosDBContext _context;
+    private readonly LivrosDbContext _context;
 
-    public LivrosController(LivrosDBContext context)
+    public LivrosController(LivrosDbContext context)
     {
         _context = context;
     }
@@ -38,6 +38,7 @@ public class LivrosController : ControllerBase {
     public IActionResult Post(Livro livro) {
         _context.Livros.Add(livro);
 
+        _context.SaveChanges();
         return CreatedAtAction(nameof(GetById), new {id = livro.Id}, livro);
     }
 
@@ -51,6 +52,9 @@ public class LivrosController : ControllerBase {
 
         livro.Update(input.Nome, input.Autor, input.Ano);
 
+        _context.Update(livro);
+        _context.SaveChanges();
+
         return NoContent();
     }
 
@@ -63,6 +67,8 @@ public class LivrosController : ControllerBase {
         }
 
         livro.Delete();
+
+        _context.SaveChanges();
         return NoContent();
     }
 }

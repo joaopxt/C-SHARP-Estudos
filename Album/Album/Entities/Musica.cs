@@ -4,7 +4,7 @@ public class Musica {
 
     public Guid Id { get; set; }
     public string Nome { get; set; }
-    public List<Artista> Artista { get; set; }
+    public List<Artista> Artistas { get; set; }
     public string Genero { get; set; }
     public bool IsDeleted { get; set; }
 
@@ -15,14 +15,14 @@ public class Musica {
     public Musica(Guid id, string nome, List<Artista> artista, string genero) {
         Id = id;
         Nome = nome;
-        Artista = artista;
+        Artistas = artista;
         Genero = genero;
         IsDeleted = false;
     }
 
     public void Update(string nome, List<Artista> artista, string genero) {
         Nome = nome;
-        Artista = artista;
+        Artistas = artista;
         Genero = genero;
     }
 

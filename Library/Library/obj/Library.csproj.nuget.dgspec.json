@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Library\\Library\\Library.csproj": {}
+    "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Library\\Library\\Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Library\\Library\\Library.csproj": {
+    "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Library\\Library\\Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Library\\Library\\Library.csproj",
+        "projectUniqueName": "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Library\\Library\\Library.csproj",
         "projectName": "Library",
-        "projectPath": "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Library\\Library\\Library.csproj",
+        "projectPath": "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Library\\Library\\Library.csproj",
         "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joaop\\source\\repos\\UdemyCurso\\Heranca\\Library\\Library\\obj\\",
+        "outputPath": "C:\\Users\\joaop\\OneDrive\\Documentos\\C# Estudos\\Library\\Library\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

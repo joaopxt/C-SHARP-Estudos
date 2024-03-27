@@ -2,14 +2,15 @@
 using Album.Entities.Persistence;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Album.Controllers;
 [Route("api/[controller]")]
 [ApiController]
 public class MusicasController : ControllerBase {
-    private readonly MusicasDBContext _context;
+    private readonly MusicasDbContext _context;
 
-    public MusicasController(MusicasDBContext context)
+    public MusicasController(MusicasDbContext context)
     {
         _context = context;
     }
@@ -23,11 +24,13 @@ public class MusicasController : ControllerBase {
 
     [HttpGet("{id}")]
     public IActionResult GetById(Guid id) {
-        var musica = _context.Musicas.SingleOrDefault(x => x.Id == id);
+        var musica = _context.Musicas.Include(x => x.Artistas).SingleOrDefault(x => x.Id == id);
 
         if (musica == null) {
             return NotFound();
         }
+
+       
 
         return Ok(musica);
     }
@@ -36,6 +39,7 @@ public class MusicasController : ControllerBase {
     public IActionResult Post(Musica musica) {
         _context.Musicas.Add(musica);
 
+        _context.SaveChanges();
         return CreatedAtAction(nameof(GetById), new {id = musica.Id}, musica);
     }
 
@@ -46,7 +50,9 @@ public class MusicasController : ControllerBase {
             return NotFound();
         }
 
-        musica.Update(input.Nome, input.Artista, input.Genero);
+        _context.Update(musica);
+        _context.SaveChanges();
+        musica.Update(input.Nome, input.Artistas, input.Genero);
         return NoContent();
     }
 
@@ -59,7 +65,24 @@ public class MusicasController : ControllerBase {
         }
 
         musica.Delete();
-
+        _context.SaveChanges();
         return NoContent(); 
     }
+
+    [HttpPost("{id}")]
+    public IActionResult PostArtista(Guid id, Artista artista) {
+        artista.ArtistaId = id;
+
+        var musica = _context.Musicas.Any(x => x.Id == id);
+
+        if (!musica) {
+            return NotFound();
+        }
+
+        _context.Artistas.Add(artista);
+        _context.SaveChanges();
+        return NoContent();
+    }
+
+
 }

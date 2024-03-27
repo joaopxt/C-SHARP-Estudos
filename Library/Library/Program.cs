@@ -1,10 +1,13 @@
 using Library.Entities.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddSingleton<LivrosDBContext>();
+var connectionString = builder.Configuration.GetConnectionString("LivrosCs");
+
+builder.Services.AddDbContext<LivrosDbContext>(x => x.UseSqlServer(connectionString)); //Conectando ao banco de dados
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

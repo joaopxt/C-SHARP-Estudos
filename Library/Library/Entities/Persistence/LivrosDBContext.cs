@@ -1,14 +1,24 @@
 ﻿using Library.Entities;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Library.Entities.Persistence;
 
-public class LivrosDBContext
+public class LivrosDbContext: DbContext
 {
-    public List<Livro> Livros { get; set; }
+    public DbSet<Livro> Livros { get; set; }
 
-    public LivrosDBContext()
+    public LivrosDbContext(DbContextOptions<LivrosDbContext> options) : base(options)
     {
-        Livros = new List<Livro>();
+        
+    }
+
+    protected override void OnModelCreating(ModelBuilder builder) {
+        builder.Entity<Livro>(l => {
+            l.HasKey(x => x.Id);
+            l.Property(x => x.Nome).IsRequired();
+            l.Property(x => x.Autor).IsRequired(false);
+            l.Property(x => x.Ano).HasMaxLength(4);
+        });
     }
 }
