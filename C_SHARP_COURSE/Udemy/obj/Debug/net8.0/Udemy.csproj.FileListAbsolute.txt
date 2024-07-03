@@ -1,0 +1,14 @@
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\bin\Debug\net8.0\Udemy.exe
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\bin\Debug\net8.0\Udemy.deps.json
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\bin\Debug\net8.0\Udemy.runtimeconfig.json
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\bin\Debug\net8.0\Udemy.dll
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\bin\Debug\net8.0\Udemy.pdb
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\Udemy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\Udemy.AssemblyInfoInputs.cache
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\Udemy.AssemblyInfo.cs
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\Udemy.csproj.CoreCompileInputs.cache
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\Udemy.dll
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\refint\Udemy.dll
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\Udemy.pdb
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\Udemy.genruntimeconfig.cache
+C:\Users\joaop\source\repos\UdemyCurso\Udemy\obj\Debug\net8.0\ref\Udemy.dll

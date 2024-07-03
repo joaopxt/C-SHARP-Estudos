@@ -2,14 +2,13 @@
 
 public class Aluno { // Classe de Aluno com métodos de Update e Delete  
 
-    public Guid Id { get; set; }
-    public string Nome { get; set; }
-    public string Curso { get; set; }
-    public int Semestre { get; set; }
-    public bool IsDeleted { get; set; }
+    internal protected Guid Id { get; set; }
+    internal protected string Nome { get; set; }
+    internal protected string Curso { get; set; }
+    internal protected int Semestre { get; set; }
+    internal protected bool IsDeleted { get; set; }
 
-    public Aluno()
-    {
+    public Aluno() {
         IsDeleted = false;
     }
 
@@ -25,7 +24,7 @@ public class Aluno { // Classe de Aluno com métodos de Update e Delete
         Nome = nome;
         Curso = curso;
         Semestre = semestre;
-    }   
+    }
     public void Delete() {
         IsDeleted = true;
     }

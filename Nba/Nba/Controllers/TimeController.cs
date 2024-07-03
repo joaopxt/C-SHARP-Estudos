@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Nba.Entities;
 using Nba.Entities.Persistence;
 
@@ -23,7 +24,7 @@ public class TimeController : ControllerBase {
 
     [HttpGet("{id}")] 
     public IActionResult GetById(Guid id) {
-        var time = _context.Times.SingleOrDefault(x => x.Id == id);
+        var time = _context.Times.Include(de => de.Estrelas).SingleOrDefault(x => x.Id == id);
 
         if (time == null) {
             return NotFound();
@@ -49,7 +50,7 @@ public class TimeController : ControllerBase {
         return NotFound();
         }
 
-        time.Update(input.Nome, input.Trofeus, input.Conferencia, input.Star);
+        time.Update(input.Nome, input.Trofeus, input.Conferencia);
         _context.Update(time);
         _context.SaveChanges();
 

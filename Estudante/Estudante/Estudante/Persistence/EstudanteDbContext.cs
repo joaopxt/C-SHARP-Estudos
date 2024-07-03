@@ -2,8 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 
 namespace Estudante.Persistence;
-
-public class EstudanteDbContext: DbContext{ //Configurando o context do Banco de Dados
+public class EstudanteDbContext : DbContext { //Configurando o context do Banco de Dados
 
     private readonly DbContext _context;
 

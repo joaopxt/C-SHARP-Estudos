@@ -1,0 +1,15 @@
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\bin\Debug\net8.0\NbaConsole.exe
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\bin\Debug\net8.0\NbaConsole.deps.json
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\bin\Debug\net8.0\NbaConsole.runtimeconfig.json
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\bin\Debug\net8.0\NbaConsole.dll
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\bin\Debug\net8.0\NbaConsole.pdb
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\NbaConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\NbaConsole.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\NbaConsole.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\NbaConsole.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\NbaConsole.sourcelink.json
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\NbaConsole.dll
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\refint\NbaConsole.dll
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\NbaConsole.pdb
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\NbaConsole.genruntimeconfig.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\NbaConsole\NbaConsole\obj\Debug\net8.0\ref\NbaConsole.dll

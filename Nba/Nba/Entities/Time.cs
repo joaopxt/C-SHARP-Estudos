@@ -8,7 +8,7 @@ public class Time {
 
     public string Conferencia { get; set; }
 
-    public string Star { get; set; }
+    public List<Jogador> Estrelas { get; set; }
 
     public bool IsDeleted { get; set; }
 
@@ -17,20 +17,18 @@ public class Time {
         IsDeleted = false;  
     }
 
-    public Time(Guid id, string nome, int trofeus, string conferencia, string star) {
+    public Time(Guid id, string nome, int trofeus, string conferencia) {
         Id = id;
         Nome = nome;
         Trofeus = trofeus;
         Conferencia = conferencia;
-        Star = star;
         IsDeleted = false;  
     }
 
-    public void Update(string nome, int trofeus, string conferencia, string star) {
+    public void Update(string nome, int trofeus, string conferencia) {
         Nome = nome;    
         Trofeus = trofeus;
         Conferencia = conferencia;
-        Star = star;
     }
 
     public void Delete() {

@@ -1,0 +1,17 @@
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.exe
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.deps.json
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.runtimeconfig.json
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.dll
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\bin\Debug\net8.0-windows\TicTacToe.pdb
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.Form1.resources
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.csproj.GenerateResource.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.sourcelink.json
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.dll
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\refint\TicTacToe.dll
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.pdb
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\TicTacToe.genruntimeconfig.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\TicTacToe\TicTacToe\obj\Debug\net8.0-windows\ref\TicTacToe.dll

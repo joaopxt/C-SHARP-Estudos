@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Carros"
+    "\\Carros",
+    "\\Carros\\Entities"
   ],
+  "SelectedNode": "\\Carros.sln",
   "PreviewInSolutionExplorer": false
 }

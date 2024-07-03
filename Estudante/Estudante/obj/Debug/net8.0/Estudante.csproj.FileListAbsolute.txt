@@ -1,0 +1,5 @@
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\Estudante\Estudante\obj\Debug\net8.0\Estudante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\Estudante\Estudante\obj\Debug\net8.0\Estudante.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\Estudante\Estudante\obj\Debug\net8.0\Estudante.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\Estudante\Estudante\obj\Debug\net8.0\Estudante.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\C# Estudos\Estudante\Estudante\obj\Debug\net8.0\Estudante.sourcelink.json

@@ -9,8 +9,7 @@ namespace Estudante.Controllers;
 public class EstudanteController : ControllerBase {
     private readonly EstudanteDbContext _context;
 
-    public EstudanteController(EstudanteDbContext contexto)
-    {
+    public EstudanteController(EstudanteDbContext contexto) {
         _context = contexto;
 
     }
@@ -45,7 +44,7 @@ public class EstudanteController : ControllerBase {
     public IActionResult Update(Guid id, Aluno input) {
         var aluno = _context.Alunos.SingleOrDefault(x => x.Id == id);
 
-        if(aluno == null) {
+        if (aluno == null) {
             return NotFound();
         }
 
@@ -60,7 +59,7 @@ public class EstudanteController : ControllerBase {
     public IActionResult Delete(Guid id) {
         var aluno = _context.Alunos.SingleOrDefault(x => x.Id == id);
 
-        if(aluno == null) {
+        if (aluno == null) {
             return NotFound();
         }
 

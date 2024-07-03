@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Estudante",
+    "\\Estudante\\Estudante",
+    "\\Estudante\\Estudante\\Entities"
   ],
+  "SelectedNode": "\\Estudante\\Estudante\\Entities\\Aluno.cs",
   "PreviewInSolutionExplorer": false
 }

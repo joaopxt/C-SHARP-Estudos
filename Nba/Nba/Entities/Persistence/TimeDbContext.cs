@@ -5,7 +5,7 @@ namespace Nba.Entities.Persistence;
 
 public class TimeDbContext : DbContext{
     public DbSet<Time> Times { get; set; }
-
+    public DbSet<Jogador> Jogadores {  get; set; }
 
     public TimeDbContext(DbContextOptions<TimeDbContext> options): base(options) {
 
@@ -18,7 +18,12 @@ public class TimeDbContext : DbContext{
             e.Property(x => x.Nome).IsRequired();
             e.Property(x => x.Trofeus).HasColumnType("int");
             e.Property(x => x.Conferencia).IsRequired(false).HasMaxLength(5).HasColumnType("varchar(5)");
-            e.Property(x => x.Star).IsRequired().HasMaxLength(50).HasColumnType("varchar(50)");
+            e.HasMany(x => x.Estrelas).WithOne().HasForeignKey(e => e.Time_id);
+        });
+
+        builder.Entity<Jogador>(e => {
+            e.HasKey(x => x.Id);
+
         });
 
     }
